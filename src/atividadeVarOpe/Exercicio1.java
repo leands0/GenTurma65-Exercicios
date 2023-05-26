@@ -20,7 +20,8 @@ public class Exercicio1 {
 		novoSalario = salario + abono;
 		
 		System.out.println("Esse é o Novo Salário:" + novoSalario);
-
+		
+		leia.close();
 	}
 
 }

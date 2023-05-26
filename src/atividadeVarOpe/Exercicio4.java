@@ -43,6 +43,7 @@ public class Exercicio4 {
 //		diferenca = ((numero1*numero2)-(numero3*numero4));
 //		System.out.printf("Essa é a diferença: %.1f", diferenca);
 		
+		leia.close();
 	}
 
 }

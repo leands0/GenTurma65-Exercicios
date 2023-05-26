@@ -20,6 +20,7 @@ public class EntradaSaida {
 		System.out.println("\nParabéns " + nome + ","
 				+ " a sua distância percorrida foi de " + distancia + "Km");
 		
+		leia.close();
 	}
 
 }

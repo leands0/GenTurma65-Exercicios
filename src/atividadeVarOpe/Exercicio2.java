@@ -28,7 +28,7 @@ public class Exercicio2 {
 		
 		System.out.printf("\nEssa é a média final: %.1f", media);
 		
-		
+		leia.close();
 
 	}
 
