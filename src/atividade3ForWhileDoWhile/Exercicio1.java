@@ -8,7 +8,7 @@ public class Exercicio1 {
 		Scanner leia = new Scanner(System.in);
 		int num1, num2, contador;
 		
-		System.out.println("Digite 2 números inteiros, o primeiro maior e o segundo menor:");
+		System.out.println("Digite 2 números inteiros, o primeiro menor e o segundo maior:");
 		num1 = leia.nextInt();
 		num2 = leia.nextInt();
 		
@@ -21,7 +21,6 @@ public class Exercicio1 {
 		}else {
 			System.out.println("Intervalo inválido!");
 		}
-		leia.close();
 	}
 
 }
