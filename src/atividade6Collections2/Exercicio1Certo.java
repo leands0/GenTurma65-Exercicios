@@ -21,7 +21,8 @@ public class Exercicio1Certo {
 		escolha = ler.nextInt();
 			if(escolha == 1) {
 				System.out.println("Digite o nome do cliente:");
-				cliente = ler.next();
+				ler.skip("\\R?");
+				cliente = ler.nextLine();
 				filaClientes.add(cliente);
 				System.out.println("\ncliente adicionado: "+cliente);}
 			
@@ -32,7 +33,7 @@ public class Exercicio1Certo {
 			
 			else if (escolha == 3) {
 				if(filaClientes.isEmpty()) {System.out.println("\nA fila já está vazia!");
-			}else { System.out.println("\ncliente retirado da pilha: "+filaClientes.remove());
+			}else { System.out.println("\ncliente retirado da pilha: "+filaClientes.poll());
 				}}
 			
 			else if (escolha == 0) {System.out.println("\nPrograma finalizado!");

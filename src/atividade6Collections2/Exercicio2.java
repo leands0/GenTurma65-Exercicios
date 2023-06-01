@@ -20,7 +20,8 @@ public class Exercicio2 {
 		escolha = ler.nextInt();
 			if(escolha == 1) {
 				System.out.println("Digite o nome do livro:");
-				livro = ler.next();
+				ler.skip("\\R?");
+				livro = ler.nextLine();
 				System.out.println("\nLivro adicionado: "+pilhaLivros.push(livro));}
 			
 			else if (escolha == 2) { if(!pilhaLivros.isEmpty()) {
