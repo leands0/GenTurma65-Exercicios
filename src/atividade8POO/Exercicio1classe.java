@@ -1,6 +1,6 @@
 package atividade8POO;
 
-public class Exercicio1classe {
+public class Exercicio1Classe {
 	
 // atributos da classe Exercicio1classe
 	private String nome;
@@ -9,7 +9,7 @@ public class Exercicio1classe {
 	private float altura;
 	
 //	método construtor
-	public Exercicio1classe(String nome, String profissao, int idade, float altura) {
+	public Exercicio1Classe(String nome, String profissao, int idade, float altura) {
 		this.nome = nome;
 		this.profissao = profissao;
 		this.idade = idade;
